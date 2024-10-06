@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <nav id="navbar">
+        <header class="nav-name">
+          C++ Documentation
+        </header>
+        <a class="nav-link" href="#introduction">
+          Introduction
+        </a>
+        <a class="nav-link" href="#what-you-should-already-know">
+          What you should already know
+        </a>
+        <a class="nav-link" href="#about-c++">
+          About C++
+        </a>
+        <a class="nav-link" href="#hello-world">
+          Hello World
+        </a>
+        <a class="nav-link" href="#variables">
+          Variables
+        </a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section">
+        <header class="content" id="introduction">
+          Introduction
+        </header>
+        <div class="content">
+          <p>C++ is a cross-platform, object-oriented programming language that
+            is an extension of the C language. It is widely used for developing
+            applications that require performance and system-level access. C++
+            is known for its efficiency, flexibility, and strong focus on
+            performance, making it popular for systems software, game development,
+             and high-performance applications.</p>
+          <p>C++ contains a rich standard library that includes data structures
+            like vectors, stacks, and maps, as well as utilities for handling
+            time, input/output, and memory. In addition to the core language
+            features, C++ can be extended with libraries and frameworks for
+            specialized purposes. For example:</p>
+          <ul>
+            <li><strong>Client-side C++</strong> can be used in combination with frameworks like
+              Qt for developing desktop applications with graphical user
+              interfaces (GUIs). This allows developers to build rich client
+              applications that run efficiently on end-user machines.</li>
+            <li><strong>Server-side C++</strong> is often used in backend systems where performance
+               is critical, such as handling high-traffic servers, databases, or
+               real-time systems. C++ can communicate with databases, manage
+               memory, and optimize performance in these environments.</li>
+          </ul>
+        </div>
+      </section>
+      <section class="main-section">
+        <header class="content" id="what-you-should-already-know">
+          What you should already know
+        </header>
+        <div class="content">
+          <p>This guide assumes you have the following basic background:</p>
+          <ul>
+            <li>A general understanding of programming concepts like variables,
+              control structures, and functions.</li>
+            <li>A good working knowledge of C, including pointers and memory
+              management.</li>
+            <li>Some familiarity with object-oriented programming (OOP) concepts
+              such as classes, inheritance, and polymorphism.</li>
+          </ul>
+      </div>
+      </section>
+      <section class="main-section">
+        <header class="content" id="about-c++">
+          About C++
+        </header>
+        <div class="content">
+          <p>C++ and C share many similarities since C++ is derived from C, but
+            they also have significant differences. C++ adds features such as
+            object-oriented programming, which allows you to define classes and
+            objects, and supports encapsulation, inheritance, and polymorphism.
+            Unlike C, C++ provides features like function overloading, templates,
+            and exception handling, making it a more versatile and expressive
+            language.</p>
+          <p>In contrast to C's procedural programming style, C++ supports both
+            procedural and object-oriented programming paradigms. C++ also
+            introduces the Standard Template Library (STL), which provides
+            powerful tools for working with collections of data like vectors,
+            lists, and maps.</p>
+          <p>C++ offers fine-grained control over system resources, such as
+            memory and hardware. However, developers need to manage memory
+            explicitly (for example, using <code>new</code> and
+            <code>delete</code>), which adds complexity
+            and potential for errors if not handled properly.</p>
+        </div>
+      </section>
+      <section class="main-section">
+        <header class="content" id="hello-world">
+          Hello World
+        </header>
+        <div class="content">
+          <p>To get started with writing C++ code, open your favorite text editor
+            or IDE and write your first "Hello world" program:</p>
+          <code class="mac-window">
+            // Your First C++ Program
+
+  #include <iostream>
+
+  int main() {
+      std::cout << "Hello World!";
+      return 0;
+  }
+          </code>
+          <p>Compile and run this program in your terminal or IDE to see the
+            output "Hello, World!" displayed on your screen.</p>
+        </div>
+      </section>
+      <section class="main-section">
+        <header class="content" id="variables">
+          Variables
+        </header>
+        <div class="content">
+          <p>In C++, you use variables as symbolic names for values in your
+            program. The names of variables, called identifiers, follow certain
+            rules.</p>
+          <p>A C++ identifier must start with a letter or underscore (_);
+            subsequent characters can be letters, digits (0-9), or underscores.
+            C++ is case-sensitive, so <code>myVariable</code> and
+            <code>MyVariable</code> are considered two different identifiers.</p>
+          <p>Examples of legal variable names include
+            <code>numberOfHits</code>, <code>tempValue99</code>, and
+            <code>_username</code>.</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
